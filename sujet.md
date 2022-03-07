@@ -32,7 +32,7 @@ Un des buts importants de Netflix est de tester son service de disponibilité, a
 Cette méthode de travail est très efficace car les ingénieurs conçoivent leurs services de manière à gérer les défaillances d'instances de manière systématique.
 Netflix possède des logiciels de déploiement qui fonctionnent dans plusieurs régions géographiques (Virginie du Nord, Oregon et Irlande), si une panne se situe dans une de ses régions, Netflix peut utiliser les logiciels de déploiement des autres régions, donc de rediriger le trafic vers une autre région.
 Voici quelques expériences que font Netflix pour tester la fiabilité de leurs services : mettre fin à des instances de machines virtuelles, injecter de la latence dans les demandes entre services, faire échouer des requêtes entre services, faire échouer un service interne.
-Le fait que Netflix travail avec Chaos Monkey implique que c’est les développeurs qui provoque des bus, et peuvent les corriger avant que ses bugs apparaissent. 
+Le fait que Netflix travail avec Chaos Monkey implique que c’est les développeurs qui provoquent des bugs, et peuvent les corriger avant que ses bugs apparaissent. 
 Les entreprises comme Amazon, Google, Microsoft et Facebook, appliquent des techniques similaires pour tester la résilience de leurs propres systèmes.
 
 ## Question 4: WebAssembly
